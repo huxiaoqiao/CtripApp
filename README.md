@@ -4,8 +4,8 @@ React Native仿携程主页
 ----
 
 ### 效果图
-![](http://myimages.qiniudn.com/16-5-9/60892729.jpg)
-![](http://myimages.qiniudn.com/16-5-9/91092464.jpg)
+![1](http://7xsuki.com2.z0.glb.clouddn.com/16-5-9/60892729.jpg)
+![2](http://7xsuki.com2.z0.glb.clouddn.com/16-5-9/91092464.jpg)
 
 ----
 * 暂时只支持ios
