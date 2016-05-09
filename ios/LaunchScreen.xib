@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="576"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash" translatesAutoresizingMaskIntoConstraints="NO" id="yqx-MP-PSs">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="576"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="yqx-MP-PSs" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="2Ju-1d-hF9"/>
+                <constraint firstAttribute="trailing" secondItem="yqx-MP-PSs" secondAttribute="trailing" id="QRF-XJ-tsA"/>
+                <constraint firstAttribute="bottom" secondItem="yqx-MP-PSs" secondAttribute="bottom" id="hSi-bL-NYA"/>
+                <constraint firstItem="yqx-MP-PSs" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="yra-zF-DER"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="452" y="366"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="splash" width="1125" height="2001"/>
+    </resources>
+</document>
